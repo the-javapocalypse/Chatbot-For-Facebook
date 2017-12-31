@@ -36,7 +36,7 @@ class Jarvis(Client):
         reader = codecs.getdecoder("utf-8")
         obj = json.load(reader(response))
 
-        # Get reply fro the lsit
+        # Get reply from the list
         reply = obj['result']['fulfillment']['speech']
 
         # Send message
