@@ -6,7 +6,7 @@ A simple Chatbot for Facebook's personal profile that can chat with any of your 
 
 You will need to register a free account on [dialogflow](https://dialogflow.com/). After that you need to create an agent and train it ([how to create and train an agent using dialogflow](http://www.letscodepro.com/chatbot-for-facebooks-personal-profile-using-python-dialogflow-p2/)). After that copy Client Access Token somewhere because we will be needing that later. 
 
-## Installation
+### Installation
 
 Download or Clone the repo, Navigate to the directory containing the files and run
 ```
@@ -23,17 +23,17 @@ __Note:__ If you're facing problems in installation of fbchat in __Ubuntu__ then
 sudo apt-get --yes --force-yes install libxml2-dev libxslt1-dev libxml2 python-dev python3-dev zlib1g-dev
 ```
 
-# Usage
+### Usage
 
 After running setup.py, open bot.py and plug in your Client Accecss Token, email and password and run the bot. Now you can test the bot by logging into some other facebook account and starting a chat with the account you used to run the bot.
 
 
-# Built With
+## Built With
 
 + fbchat
 + apiai
 
-# Contributing
+## Contributing
 
 1. Fork it
 2. Create your feature branch: git checkout -b my-new-feature
@@ -41,10 +41,10 @@ After running setup.py, open bot.py and plug in your Client Accecss Token, email
 4. Push to the branch: git push origin my-new-feature
 5. Submit a pull request
 
-# Authors
+## Authors
 
 + Muhammad Ali Zia
 
-# License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/the-javapocalypse/Chatbot-For-Facebook/blob/master/License.md) file for details
